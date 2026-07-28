@@ -60,7 +60,7 @@ cmp file1 file2
 
 comm file1 file2
  ## OUTPUT
-<img width="940" height="122" alt="image" src="https://github.com/user-attachments/assets/28dd35fb-a92a-44c7-a1c8-ff6d9bfd78af" />
+![output4](./img/output4.png)
 
  
 diff file1 file2
