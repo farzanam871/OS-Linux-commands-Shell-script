@@ -111,8 +111,7 @@ hello world
  
 grep Hello newfile 
 ## OUTPUT
-<img width="940" height="81" alt="image" src="https://github.com/user-attachments/assets/04a02353-4be6-4b0d-9424-2fd5601caca7" />
-
+![output9o](./img/output9o.png)
 
 
 grep hello newfile 
