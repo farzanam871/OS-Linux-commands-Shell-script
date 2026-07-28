@@ -193,7 +193,7 @@ egrep '(world$)' newfile
 
 egrep '(World$)' newfile 
 ## OUTPUT
-![output19](./img/output19.png)
+~![output19](./img/output19.png)
 
 
 
