@@ -50,7 +50,7 @@ cat < file1
 
 cat < file2
 ## OUTPUT
-<img width="940" height="73" alt="image" src="https://github.com/user-attachments/assets/bafc71de-9c4e-41ec-bf1b-1ca379934de6" />
+![output2](./img/output%202.png)
 
 
 # Comparing Files
