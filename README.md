@@ -97,7 +97,7 @@ cut -d "|" -f 1 file22
 
 cut -d "|" -f 2 file22
 ## OUTPUT
-
+![output8](./img/output8.png)
 
 cat < newfile 
 ```
