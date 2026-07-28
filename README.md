@@ -65,8 +65,7 @@ comm file1 file2
  
 diff file1 file2
 ## OUTPUT
-
-<img width="940" height="122" alt="image" src="https://github.com/user-attachments/assets/e98fa664-1064-4225-a7ce-885e66842b1e" />
+![output5](./img/output5.png)
 
 #Filters
 
