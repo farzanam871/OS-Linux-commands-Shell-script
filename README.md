@@ -88,14 +88,11 @@ cat > file22
 
 cut -c1-3 file11
 ## OUTPUT
-
-<img width="940" height="269" alt="image" src="https://github.com/user-attachments/assets/9c5121db-12ec-4781-9e00-916016ddec08" />
-
-
+![output6o](./img/output%206o.png)
 
 cut -d "|" -f 1 file22
 ## OUTPUT
-
+![output7](./img/output7.png)
 
 
 cut -d "|" -f 2 file22
