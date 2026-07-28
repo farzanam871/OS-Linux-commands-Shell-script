@@ -122,21 +122,19 @@ grep hello newfile
 
 grep -v hello newfile 
 ## OUTPUT
-<img width="940" height="26" alt="image" src="https://github.com/user-attachments/assets/e38a3dc5-c119-4a5a-bdd1-756b41020498" />
+![output11](./img/output11.png)
 
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
-
-<img width="940" height="36" alt="image" src="https://github.com/user-attachments/assets/9ec6d4b8-613c-4718-8ad5-a87c33dac4cc" />
+![output12](./img/output12.png)
 
 
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
-
-<img width="940" height="36" alt="image" src="https://github.com/user-attachments/assets/205e84a4-f3a4-4271-8824-dea1bc67e6b1" />
+![output13](./img/outout13.png)
 
 
 
@@ -147,7 +145,7 @@ grep -R ubuntu /etc
 
 grep -w -n world newfile   
 ## OUTPUT
-<img width="940" height="36" alt="image" src="https://github.com/user-attachments/assets/b5e2a1b3-653d-41c3-9dcc-85f8d31c6a4e" />
+![output14](./img/output14.png)
 
 
 cat < newfile 
@@ -171,38 +169,32 @@ Linux is best in this World
  ```
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
-
-<img width="940" height="34" alt="image" src="https://github.com/user-attachments/assets/2b56ea0c-4f0d-4115-8b38-0a4d0c83ff29" />
+![output15](./img/output15.png)
 
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
-
-<img width="940" height="35" alt="image" src="https://github.com/user-attachments/assets/7249a428-280f-449d-b28e-134693d395dd" />
+![output16](./img/output16.png)
 
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
-
-<img width="940" height="35" alt="image" src="https://github.com/user-attachments/assets/c66d27c3-487a-4e69-9c5a-33e24ce61c52" />
-
+![output17](./img/output17.png)
 
 
 egrep '(^hello)' newfile 
 ## OUTPUT
-
-<img width="940" height="25" alt="image" src="https://github.com/user-attachments/assets/fae9f346-77a4-492f-bab6-21dffe01930e" />
-
+![output18](./img/output18.png)
 
 egrep '(world$)' newfile 
 ## OUTPUT
-
-<img width="940" height="47" alt="image" src="https://github.com/user-attachments/assets/7dc726d5-0787-492f-9c9e-6f16eea408ff" />
+![output19](./img/output19.png)
 
 
 egrep '(World$)' newfile 
 ## OUTPUT
-<img width="940" height="47" alt="image" src="https://github.com/user-attachments/assets/19eef744-d5ff-4ded-9422-10b43c9e97a5" />
+![output19](./img/output19.png)
+
 
 
 egrep '((W|w)orld$)' newfile 
