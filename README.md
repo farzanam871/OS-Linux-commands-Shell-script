@@ -218,8 +218,7 @@ egrep '((W|w)orld$)' newfile
 
 egrep '[1-9]' newfile 
 ## OUTPUT
-
-![Uploading image.png…]()
+<img width="501" height="177" alt="image" src="https://github.com/user-attachments/assets/65d63ed3-c94c-4a32-9f71-120b76a1e751" />
 
 
 
