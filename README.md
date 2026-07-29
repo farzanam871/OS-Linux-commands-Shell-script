@@ -314,13 +314,7 @@ seq 10 | sed -n '4,6p'
 
 seq 10 | sed -n '2,~4p'
 
-## OUTPUT
 
-<img width="940" height="58" alt="image" src="https://github.com/user-attachments/assets/b669eb7e-4817-4f09-9f52-2b3554af5789" />
-
-
-seq 2 | sed '2i hello'
-## OUTPUT
 <img width="516" height="140" alt="image" src="https://github.com/user-attachments/assets/cdaaa7c1-a64a-4ce4-a96f-a1cc695bfc2f" />
 
 
@@ -460,7 +454,7 @@ stop
 cat herecheck.txt
 ## OUTPUT
 
-![Uploading image.png…]()
+<img width="368" height="122" alt="image" src="https://github.com/user-attachments/assets/faec735a-584b-456b-ae24-2bc395ef3676" />
 
 
 
@@ -502,20 +496,21 @@ chmod 777 scriptest.sh
 
 ## OUTPUT
 
-<img width="940" height="25" alt="image" src="https://github.com/user-attachments/assets/e82f5aeb-41a3-4e2e-bcb7-668bd9fae297" />
+<img width="408" height="170" alt="image" src="https://github.com/user-attachments/assets/11a9c519-5801-4147-8731-23a0a773b671" />
 
 
  
 ls file1
 ## OUTPUT
 
-<img width="940" height="25" alt="image" src="https://github.com/user-attachments/assets/14075ab7-40ee-4bf9-8809-a6c7b316374b" />
+<img width="533" height="311" alt="image" src="https://github.com/user-attachments/assets/0436b213-c112-4ea1-976a-8bed09b7fddd" />
 
 
 echo $?
 ## OUTPUT
 
-<img width="940" height="25" alt="image" src="https://github.com/user-attachments/assets/0c5d24d7-c601-4c6d-a633-b0e62dc451c4" />
+![Uploading image.png…]()
+
 
 ./one
 bash: ./one: Permission denied
