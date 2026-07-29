@@ -291,13 +291,7 @@ sed  '/tom/s/5000/6000/' file23
 
 
 sed -n -e '1,5p' file23
-## OUTPUT
 
-<img width="412" height="177" alt="image" src="https://github.com/user-attachments/assets/05c74b0d-cf7d-4337-8f30-65161ecf7f85" />
-
-
-
-sed -n -e '2,/Joe/p' file23
 ## OUTPUT
 
 <img width="940" height="49" alt="image" src="https://github.com/user-attachments/assets/62bc0081-dba3-441c-8e0a-a0a53c87d361" />
