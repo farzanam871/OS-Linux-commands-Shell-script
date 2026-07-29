@@ -525,8 +525,7 @@ abcd
  
 echo $?
  ## OUTPUT
-
-<img width="940" height="112" alt="image" src="https://github.com/user-attachments/assets/b01b8df4-3c8f-4068-948b-6af5366e290f" />
+<img width="295" height="115" alt="image" src="https://github.com/user-attachments/assets/b64ef193-c257-4e35-b355-52334e75c7f1" />
 
 
 
@@ -561,7 +560,8 @@ fi
 ```
 ##OUTPUT
 
-<img width="940" height="26" alt="image" src="https://github.com/user-attachments/assets/85a23916-bf85-4f66-b2bd-5192cb762b6c" />
+<img width="435" height="183" alt="image" src="https://github.com/user-attachments/assets/9d98a1e3-371e-4505-802c-022cd41f12a4" />
+
 
 
 
@@ -570,7 +570,7 @@ chmod 755 strcomp.sh
 ./strcomp.sh 
 ## OUTPUT
 
-<img width="940" height="117" alt="image" src="https://github.com/user-attachments/assets/0353d9e8-1144-4148-bb59-b39407f5c903" />
+<img width="550" height="90" alt="image" src="https://github.com/user-attachments/assets/c113e7fd-1f2a-4f61-8541-c9a4873f192b" />
 
 
 
