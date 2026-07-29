@@ -199,19 +199,17 @@ egrep '(World$)' newfile
 
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
-
-<img width="940" height="47" alt="image" src="https://github.com/user-attachments/assets/94ba497f-e1f8-4a0b-a21b-30714f6e874e" />
+![output20](./img/output20.png)
 
 
 egrep '[1-9]' newfile 
 ## OUTPUT
-
-<img width="940" height="26" alt="image" src="https://github.com/user-attachments/assets/7a18a42e-d223-4a05-87df-1e39425bb187" />
+![output22](./img/output22.png)
 
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
-<img width="940" height="35" alt="image" src="https://github.com/user-attachments/assets/2f40b349-bca2-46a1-ba4d-45f29d389505" />
+![output21](./img/output%2021.png)
 
 
 egrep 'Linux.*World' newfile 
