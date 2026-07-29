@@ -325,20 +325,22 @@ seq 3 | sed '2a hello'
 
 seq 2 | sed '2i hello'
 ## OUTPUT
-<img width="940" height="47" alt="image" src="https://github.com/user-attachments/assets/d3adea8e-6079-40b1-885b-74219767010a" />
+<img width="516" height="140" alt="image" src="https://github.com/user-attachments/assets/cdaaa7c1-a64a-4ce4-a96f-a1cc695bfc2f" />
+
 
 
 seq 10 | sed '2,9c hello'
 ## OUTPUT
 
-<img width="940" height="50" alt="image" src="https://github.com/user-attachments/assets/5d5998f5-a8ad-4468-8ff4-dcceb2630104" />
+<img width="567" height="156" alt="image" src="https://github.com/user-attachments/assets/e6dda1dc-98f6-4c40-bc8e-1f66d1cfa0ef" />
+
 
 
 sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
 
 ```````
-<img width="940" height="50" alt="image" src="https://github.com/user-attachments/assets/9319e14d-0b95-4f6c-808b-264b12ba5d1e" />
+![Uploading image.png…]()
 
 sed -n '2,4{s/$/*/;p}' file23
 
