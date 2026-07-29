@@ -401,7 +401,7 @@ cat urllist.txt | tr -d ' '
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
-![Uploading image.png…]()
+<img width="542" height="160" alt="image" src="https://github.com/user-attachments/assets/051f6987-ce84-4890-9aab-244c5268e2dd" />
 
 
 
