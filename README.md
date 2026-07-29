@@ -230,21 +230,22 @@ egrep 'Linux.*world' newfile
 
 egrep 'Linux.*World' newfile 
 ## OUTPUT
-<img width="497" height="62" alt="image" src="https://github.com/user-attachments/assets/32959139-72ac-4ab5-8b1b-b765d6d55d9e" />
+<img width="618" height="193" alt="image" src="https://github.com/user-attachments/assets/94a2f395-2733-4d1d-8bea-2ecdcbef8023" />
 
 
 
 egrep l{2} newfile
 ## OUTPUT
+<img width="627" height="192" alt="image" src="https://github.com/user-attachments/assets/09457b08-5791-4354-934c-1bc6a725d101" />
 
-<img width="391" height="75" alt="image" src="https://github.com/user-attachments/assets/b08d13f8-19d6-455c-9660-21c4881de2b5" />
 
 
 
 egrep 's{1,2}' newfile
 ## OUTPUT 
 
-<img width="417" height="53" alt="image" src="https://github.com/user-attachments/assets/bfc44c36-c2ac-45c7-80c0-0e370f66c5bb" />
+<img width="662" height="193" alt="image" src="https://github.com/user-attachments/assets/1207b906-d19c-4be5-86e4-6e8941b2d946" />
+
 
 
 cat > file23
