@@ -509,7 +509,8 @@ ls file1
 echo $?
 ## OUTPUT
 
-![Uploading image.png…]()
+<img width="533" height="311" alt="image" src="https://github.com/user-attachments/assets/61505b5d-1987-4074-95c6-f98a6589e5da" />
+
 
 
 ./one
