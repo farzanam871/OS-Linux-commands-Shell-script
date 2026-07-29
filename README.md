@@ -177,13 +177,13 @@ Linux is best in this World
  ```
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
-![Uploading image.png…]()
+<img width="507" height="165" alt="image" src="https://github.com/user-attachments/assets/e44671c3-66f3-494b-9f80-ab9ac9d3d04a" />
 
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
+<img width="507" height="165" alt="image" src="https://github.com/user-attachments/assets/f6929a49-5af8-4475-a426-c27f4e2a118a" />
 
-<img width="940" height="35" alt="image" src="https://github.com/user-attachments/assets/7249a428-280f-449d-b28e-134693d395dd" />
 
 
 egrep -w '(H|h)ell[a-z]' newfile 
