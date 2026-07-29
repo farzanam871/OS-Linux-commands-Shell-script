@@ -313,11 +313,7 @@ seq 10 | sed -n '4,6p'
 
 
 seq 10 | sed -n '2,~4p'
-## OUTPUT
 
-<img width="496" height="277" alt="image" src="https://github.com/user-attachments/assets/f9b49550-a4f7-497b-aaea-17f930df0007" />
-
-seq 3 | sed '2a hello'
 ## OUTPUT
 
 <img width="940" height="58" alt="image" src="https://github.com/user-attachments/assets/b669eb7e-4817-4f09-9f52-2b3554af5789" />
@@ -340,7 +336,7 @@ sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
 
 ```````
-![Uploading image.png…]()
+<img width="540" height="263" alt="image" src="https://github.com/user-attachments/assets/9cb78051-1308-4828-8912-7dd25a6113c3" />
 
 sed -n '2,4{s/$/*/;p}' file23
 
@@ -377,7 +373,8 @@ uniq file22
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
 ```````
-<img width="940" height="102" alt="image" src="https://github.com/user-attachments/assets/979e1fc6-0d14-455d-9871-a40cd3a92d84" />
+<img width="420" height="178" alt="image" src="https://github.com/user-attachments/assets/beb17db0-5dbe-4460-a5a8-eef93e17a54d" />
+
 
 
 cat < urllist.txt
@@ -396,15 +393,16 @@ www. mrcet.... com
 cat urllist.txt | tr -d ' '
  ## OUTPUT
 
-<img width="940" height="49" alt="image" src="https://github.com/user-attachments/assets/d7ba5cfd-5491-4f59-a122-cfba02c4d7eb" />
+<img width="542" height="160" alt="image" src="https://github.com/user-attachments/assets/8652512e-ad20-4234-950a-d69bb02d8d2b" />
+
 
 
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
+![Uploading image.png…]()
 
-<img width="940" height="49" alt="image" src="https://github.com/user-attachments/assets/a6998fa7-d54c-4f8d-a670-3d040b2e94e1" />
 
 
 
