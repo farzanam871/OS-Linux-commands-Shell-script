@@ -117,15 +117,13 @@ hello world
  
 grep Hello newfile 
 ## OUTPUT
-<img width="940" height="81" alt="image" src="https://github.com/user-attachments/assets/04a02353-4be6-4b0d-9424-2fd5601caca7" />
+<img width="387" height="140" alt="image" src="https://github.com/user-attachments/assets/a072eced-2fd0-455c-9bed-4d6ca8b0f201" />
 
 
 
 grep hello newfile 
 ## OUTPUT
-
-<img width="940" height="81" alt="image" src="https://github.com/user-attachments/assets/4df80c01-2e3d-4562-9ce3-51b6d37319a2" />
-
+<img width="297" height="132" alt="image" src="https://github.com/user-attachments/assets/84db8ffa-fa5b-46b5-8ed5-931897780e4a" />
 
 
 grep -v hello newfile 
