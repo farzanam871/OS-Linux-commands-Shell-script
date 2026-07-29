@@ -445,7 +445,7 @@ chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
 
-<img width="940" height="34" alt="image" src="https://github.com/user-attachments/assets/a36504b3-b49c-4198-b871-e7210bd38dd5" />
+<img width="767" height="87" alt="image" src="https://github.com/user-attachments/assets/298f781d-657d-4dc4-9e41-ce94224ba1c9" />
 
 
  
@@ -460,7 +460,8 @@ stop
 cat herecheck.txt
 ## OUTPUT
 
-<img width="940" height="103" alt="image" src="https://github.com/user-attachments/assets/1d64a63c-5c12-45c9-a559-6052a3418ba2" />
+![Uploading image.png…]()
+
 
 
 
