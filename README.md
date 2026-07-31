@@ -226,8 +226,7 @@ egrep l{2} newfile
 egrep 's{1,2}' newfile
 ## OUTPUT 
 
-<img width="940" height="35" alt="image" src="https://github.com/user-attachments/assets/11a8ac52-a0c7-4755-a090-37d2aee823df" />
-
+<img width="1600" height="533" alt="WhatsApp Image 2026-07-31 at 9 50 32 AM" src="https://github.com/user-attachments/assets/9ba0d75f-48a2-4f65-bc2c-ecbe840a31bc" />
 cat > file23
 ```
 1001 | Ram | 10000 | HR
