@@ -1,4 +1,4 @@
-<img width="2152" height="731" alt="image" src="https://github.com/user-attachments/assets/2a5c128e-c609-4a37-8e75-1444e4670b34" />
+
 # OS-Linux-commands-Shell-scripting
 Operating systems Lab exercise
 # Linux commands-Shell scripting
@@ -243,8 +243,7 @@ cat > file23
 
 sed -n -e '3p' file23
 ## OUTPUT
-<img width="1890" height="832" alt="image" src="https://github.com/user-attachments/assets/79dd23de-e324-454d-bd6a-5aad9622fb33" />
-
+<img width="1890" height="832" alt="image" src="https://github.com/user-attachments/assets/0f1418cd-7de9-4bb9-9364-f5eb6976f686" />
 
 
 
