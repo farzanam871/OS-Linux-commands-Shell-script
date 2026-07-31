@@ -214,13 +214,13 @@ egrep 'Linux.*world' newfile
 
 egrep 'Linux.*World' newfile 
 ## OUTPUT
-<img width="940" height="35" alt="image" src="https://github.com/user-attachments/assets/3baed9ee-0def-4062-a6a9-8965fc1b5617" />
+<img width="1600" height="533" alt="WhatsApp Image 2026-07-31 at 9 24 40 AM" src="https://github.com/user-attachments/assets/cfa91f29-a31f-4e13-9ad0-e30e138d2242" />
+
 
 
 egrep l{2} newfile
 ## OUTPUT
-
-<img width="940" height="46" alt="image" src="https://github.com/user-attachments/assets/c9dc5ea5-7748-46bb-86ba-2b506cf25f05" />
+<img width="1600" height="533" alt="WhatsApp Image 2026-07-31 at 9 40 43 AM" src="https://github.com/user-attachments/assets/a2f01207-b382-494a-b01d-baafb61333a4" />
 
 
 egrep 's{1,2}' newfile
