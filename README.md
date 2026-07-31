@@ -249,14 +249,16 @@ sed -n -e '3p' file23
 
 sed -n -e '$p' file23
 ## OUTPUT
+<img width="1589" height="990" alt="WhatsApp Image 2026-07-31 at 10 27 01 PM" src="https://github.com/user-attachments/assets/a3230bc4-a7a6-4fbe-bba7-48d2e7d43aad" />
 
-<img width="940" height="100" alt="image" src="https://github.com/user-attachments/assets/e2e62176-ec29-44b5-92e0-e61bf35c9918" />
+
 
 
 sed  -e 's/Ram/Sita/' file23
 ## OUTPUT
 
-<img width="940" height="100" alt="image" src="https://github.com/user-attachments/assets/cc4d916e-a4b1-4d61-bddb-276f161632d2" />
+<img width="1600" height="800" alt="WhatsApp Image 2026-07-31 at 10 29 21 PM" src="https://github.com/user-attachments/assets/9ddb7ee7-475e-428c-8ab0-e66bc4ad831a" />
+
 
 
 sed  -e '2s/Ram/Sita/' file23
