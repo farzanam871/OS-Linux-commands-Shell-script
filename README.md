@@ -340,7 +340,8 @@ sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
 
 ```````
-<img width="940" height="50" alt="image" src="https://github.com/user-attachments/assets/9319e14d-0b95-4f6c-808b-264b12ba5d1e" />
+<img width="1600" height="707" alt="WhatsApp Image 2026-08-01 at 10 13 55 PM" src="https://github.com/user-attachments/assets/79f06442-6260-4008-b280-509002232591" />
+
 
 sed -n '2,4{s/$/*/;p}' file23
 
