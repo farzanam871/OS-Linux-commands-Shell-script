@@ -285,43 +285,49 @@ sed -n -e '1,5p' file23
 sed -n -e '2,/Joe/p' file23
 ## OUTPUT
 
-<img width="940" height="49" alt="image" src="https://github.com/user-attachments/assets/62bc0081-dba3-441c-8e0a-a0a53c87d361" />
+<img width="1600" height="553" alt="WhatsApp Image 2026-08-01 at 9 34 11 PM" src="https://github.com/user-attachments/assets/122ae68c-7500-4fa3-ba48-8c4b9b8dcbf2" />
 
 
 
 sed -n -e '/tom/,/Joe/p' file23
 ## OUTPUT
 
-<img width="940" height="38" alt="image" src="https://github.com/user-attachments/assets/24c7248b-918a-4eab-b51c-a93b2ce361c9" />
+
+<img width="1600" height="553" alt="WhatsApp Image 2026-08-01 at 9 34 11 PM" src="https://github.com/user-attachments/assets/f6d66fc3-ef31-4ccb-ab50-a00ad0fb4121" />
 
 
 seq 10 
 ## OUTPUT
 
-<img width="940" height="126" alt="image" src="https://github.com/user-attachments/assets/c6f9df4c-c106-4e50-a922-afaf5386b92e" />
+<img width="1600" height="853" alt="WhatsApp Image 2026-08-01 at 9 35 49 PM" src="https://github.com/user-attachments/assets/8f1cb4a7-d951-459a-a650-3293cdc9f03c" />
+
 
 
 seq 10 | sed -n '4,6p'
 ## OUTPUT
 
-<img width="940" height="50" alt="image" src="https://github.com/user-attachments/assets/63b52eb4-ce1a-464a-b960-951c151b5cbf" />
+<img width="1600" height="533" alt="WhatsApp Image 2026-08-01 at 9 41 53 PM" src="https://github.com/user-attachments/assets/69213a19-edef-42ef-af35-046c7790d9f8" />
+
 
 
 seq 10 | sed -n '2,~4p'
 ## OUTPUT
 
-<img width="940" height="50" alt="image" src="https://github.com/user-attachments/assets/eba75ab7-7e4a-4332-bd69-88bb30ddd536" />
+<img width="1600" height="533" alt="WhatsApp Image 2026-08-01 at 10 08 24 PM" src="https://github.com/user-attachments/assets/d189da3f-b736-41fd-9083-b377b01bfe6e" />
+
+
 
 
 seq 3 | sed '2a hello'
 ## OUTPUT
 
-<img width="940" height="58" alt="image" src="https://github.com/user-attachments/assets/b669eb7e-4817-4f09-9f52-2b3554af5789" />
+
+<img width="1600" height="533" alt="WhatsApp Image 2026-08-01 at 10 08 24 PM" src="https://github.com/user-attachments/assets/3f88e8bd-439a-4973-871f-66a42480faaf" />
 
 
 seq 2 | sed '2i hello'
 ## OUTPUT
-<img width="940" height="47" alt="image" src="https://github.com/user-attachments/assets/d3adea8e-6079-40b1-885b-74219767010a" />
+<img width="1600" height="707" alt="WhatsApp Image 2026-08-01 at 10 13 55 PM" src="https://github.com/user-attachments/assets/8b783393-614b-46fb-b4b1-3bfa7f7dd2f6" />
 
 
 seq 10 | sed '2,9c hello'
