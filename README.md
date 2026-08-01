@@ -292,8 +292,8 @@ sed -n -e '2,/Joe/p' file23
 sed -n -e '/tom/,/Joe/p' file23
 ## OUTPUT
 
+<img width="1600" height="853" alt="WhatsApp Image 2026-08-01 at 9 35 49 PM" src="https://github.com/user-attachments/assets/15bc7611-dcd9-49fd-bf5d-502c509cb2dc" />
 
-<img width="1600" height="553" alt="WhatsApp Image 2026-08-01 at 9 34 11 PM" src="https://github.com/user-attachments/assets/f6d66fc3-ef31-4ccb-ab50-a00ad0fb4121" />
 
 
 seq 10 
