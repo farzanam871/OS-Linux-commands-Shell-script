@@ -372,7 +372,7 @@ uniq file22
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
-```````
+
 <img width="940" height="102" alt="image" src="https://github.com/user-attachments/assets/979e1fc6-0d14-455d-9871-a40cd3a92d84" />
 
 
