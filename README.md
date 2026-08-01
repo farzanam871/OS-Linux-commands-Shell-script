@@ -333,17 +333,12 @@ seq 2 | sed '2i hello'
 seq 10 | sed '2,9c hello'
 ## OUTPUT
 
-<img width="940" height="50" alt="image" src="https://github.com/user-attachments/assets/5d5998f5-a8ad-4468-8ff4-dcceb2630104" />
+
+<img width="1600" height="707" alt="WhatsApp Image 2026-08-01 at 10 13 55 PM" src="https://github.com/user-attachments/assets/e763edd1-8577-4607-8ca1-eb7e6bc00f7a" />
 
 
 sed -n '2,4{s/^/$/;p}' file23
-## OUTPUT
 
-```````
-<img width="1600" height="707" alt="WhatsApp Image 2026-08-01 at 10 13 55 PM" src="https://github.com/user-attachments/assets/79f06442-6260-4008-b280-509002232591" />
-
-
-sed -n '2,4{s/$/*/;p}' file23
 
 
 #Sorting File content
