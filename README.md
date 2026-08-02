@@ -338,8 +338,13 @@ seq 10 | sed '2,9c hello'
 
 
 sed -n '2,4{s/^/$/;p}' file23
+## OUTPUT
+![seq](./op-img/seq7.png)
 
 
+sed -n '2,4{s/$/*/;p}' file23
+## OUTPUT
+![seq](./op-img/seq8.png)
 
 #Sorting File content
 cat > file21
@@ -352,7 +357,7 @@ cat > file21
 ``` 
 sort file21
 ## OUTPUT
-
+![sort](./op-img/sort1.png)
 
 cat > file22
 ```
@@ -365,15 +370,14 @@ cat > file22
 ``` 
 uniq file22
 ## OUTPUT
-
+![sort](./op-img/uniq.png)
 
 
 #Using tr command
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
-
-<img width="940" height="102" alt="image" src="https://github.com/user-attachments/assets/979e1fc6-0d14-455d-9871-a40cd3a92d84" />
+![sort](./op-img/tr.png)
 
 
 cat < urllist.txt
@@ -389,27 +393,27 @@ www. yahoo. com
 www. google. com
 www. mrcet.... com
  ```
+
+
 cat urllist.txt | tr -d ' '
  ## OUTPUT
-
-<img width="940" height="49" alt="image" src="https://github.com/user-attachments/assets/d7ba5cfd-5491-4f59-a122-cfba02c4d7eb" />
-
-
+![sort](./op-img/cat1.png)
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
-
-<img width="940" height="49" alt="image" src="https://github.com/user-attachments/assets/a6998fa7-d54c-4f8d-a670-3d040b2e94e1" />
-
-
+![sort](./op-img/cat2.png)
 
 
 #Backup commands
+
 tar -cvf backup.tar *
 ## OUTPUT
-
-
+![tar](./op-img/tar1.png)
+![tar](./op-img/tar2.png)
+![tar](./op-img/tar3.png)
+![tar](./op-img/tar4.png)
+![tar](./op-img/tar5.png)
 
 
 mkdir backupdir
@@ -420,19 +424,28 @@ cd backupdir
  
 tar -tvf backup.tar
 ## OUTPUT
+![tar](./op-img/tvf1.png)
+![tar](./op-img/tvf2.png)
+![tar](./op-img/tvf3.png)
+![tar](./op-img/tvf4.png)
 
 
 tar -xvf backup.tar
 ## OUTPUT
+![tar](./op-img/xvf1.png)
+![tar](./op-img/xvf2.png)
+
 
 gzip backup.tar
 
 ls .gz
 ## OUTPUT
- 
+ ![tar](./op-img/ls.png)
+
+
 gunzip backup.tar.gz
 ## OUTPUT
-
+![tar](./op-img/gunzip.png)
  
 # Shell Script
 ```
@@ -442,10 +455,7 @@ echo 'echo Hello World‘; exit 0 >> my-script.sh
 chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
-
-<img width="940" height="34" alt="image" src="https://github.com/user-attachments/assets/a36504b3-b49c-4198-b871-e7210bd38dd5" />
-
-
+![tar](./op-img/chmod.png)
  
 cat << stop > herecheck.txt
 ```
@@ -457,10 +467,7 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
-
-<img width="940" height="103" alt="image" src="https://github.com/user-attachments/assets/1d64a63c-5c12-45c9-a559-6052a3418ba2" />
-
-
+![tar](./op-img/cat.png)
 
 cat < scriptest.sh 
 ```bash
@@ -498,38 +505,29 @@ chmod 777 scriptest.sh
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
-
-<img width="940" height="25" alt="image" src="https://github.com/user-attachments/assets/e82f5aeb-41a3-4e2e-bcb7-668bd9fae297" />
-
-
+![tar](./op-img/chmod1.png)
  
 ls file1
 ## OUTPUT
-
-<img width="940" height="25" alt="image" src="https://github.com/user-attachments/assets/14075ab7-40ee-4bf9-8809-a6c7b316374b" />
+![ls](./op-img/ls1.png)
 
 
 echo $?
-## OUTPUT
+## OUTPUT 
+![echo](./op-img/echo1.png)
 
-<img width="940" height="25" alt="image" src="https://github.com/user-attachments/assets/0c5d24d7-c601-4c6d-a633-b0e62dc451c4" />
 
 ./one
 bash: ./one: Permission denied
  
 echo $?
-## OUTPUT
-
-
+## OUTPUT 
  
 abcd
  
 echo $?
  ## OUTPUT
-
-<img width="940" height="112" alt="image" src="https://github.com/user-attachments/assets/b01b8df4-3c8f-4068-948b-6af5366e290f" />
-
-
+![echo](./op-img/echo2.png)
 
  
 # mis-using string comparisons
@@ -560,20 +558,15 @@ else
 echo "$val1 is less than $val2"
 fi
 ```
-##OUTPUT
-
-<img width="940" height="26" alt="image" src="https://github.com/user-attachments/assets/85a23916-bf85-4f66-b2bd-5192cb762b6c" />
-
+## OUTPUT
+![str](./op-img/str1.png)
 
 
 chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
-
-<img width="940" height="117" alt="image" src="https://github.com/user-attachments/assets/0353d9e8-1144-4148-bb59-b39407f5c903" />
-
-
+![str](./op-img/strcomp.png)
 
 # check file ownership
 cat < psswdperm.sh 
@@ -600,6 +593,8 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
+![pss](./op-img/pss1.png)
+
 
 # check if with file location
 cat>ifnested.sh 
@@ -646,7 +641,7 @@ fi
 
 ./ifnested.sh 
 ## OUTPUT
-
+![pss](./op-img/if1.png)
 
 
 # using numeric test comparisons
@@ -689,7 +684,9 @@ fi
 $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
-##OUTPUT
+## OUTPUT
+![pss](./op-img/if1.png)
+
 
 # check if a file
 cat > ifnested.sh 
@@ -738,7 +735,9 @@ fi
 $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
-##OUTPUT
+## OUTPUT
+![pss](./op-img/if1.png)
+
 
 # looking for a possible value using elif
 cat elifcheck.sh 
@@ -768,6 +767,9 @@ $ chmod 755 elifcheck.sh
 $ ./elifcheck.sh 
 ## OUTPUT
 
+![pss](./op-img/elif1.png)
+
+
 
 # testing compound comparisons
 cat> ifcompound.sh 
@@ -783,6 +785,8 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
+![pss](./op-img/testing1.png).
+
 
 # using the case command
 cat >casecheck.sh 
@@ -802,6 +806,8 @@ esac
 $ chmod 755 casecheck.sh 
  
 $ ./casecheck.sh 
+## OUTPUT
+![pss](./op-img/case1.png)
  
 cat > whiletest
 ```bash
@@ -817,6 +823,9 @@ done
 $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
+
+## OUTPUT 
+![pss](./op-img/while1.png)
  
  
 cat untiltest.sh 
@@ -830,7 +839,10 @@ var1=$[ $var1 - 25 ]
 done
 ``` 
 $ chmod 755 untiltest.sh
- 
+$ ./untiltest.sh
+
+## OUTPUT
+![pss](./op-img/until1.png) 
  
  
 cat forin1.sh 
@@ -844,7 +856,10 @@ done
  ```
  
 $ chmod 755 forin1.sh
- 
+$ ./forin1.sh
+
+## OUTPUT
+![pss](./op-img/forin1.png)
  
 cat forin2.sh 
 ```bash
@@ -857,19 +872,11 @@ done
  ```
  
 $ chmod 755 forin2.sh
+$ ./forin2.sh
+
+## OUTPUT
+![pss](./op-img/forin2.png)
  
-cat forin2.sh 
-```bash
-\#!/bin/bash
-\# another example of how not to use the for command
-for test in I don't know if this'll work
-do
-echo “word:$test”
-done
-```
-$ chmod 755 forin2.sh
- 
-$ ./forin2.sh 
  
 cat forin3.sh 
 ```bash
@@ -880,20 +887,14 @@ do
 echo "word:$test"
 done
 ```
-$ ./forin3.sh 
- 
-cat forin1.sh 
-```bash
-#!/bin/bash
-# basic for command
-for test in Alabama Alaska Arizona Arkansas California Colorado
-do
-echo The next state is $test
-done
-```
-$ chmod 755 forin1.sh
 
-## OUTPUT
+$ chmod 755 forin3.sh
+$ ./forin3.sh 
+
+ ## OUTPUT
+ ![pss](./op-img/forin3.png)
+
+
 cat forinfile.sh 
 ```bash
 #!/bin/bash
@@ -915,7 +916,7 @@ Bhadrachalam
 Khammam
 
 ## OUTPUT
-
+![pss](./op-img/cities.png)
 
 cat forctype.sh 
 ```bash
@@ -925,11 +926,13 @@ for (( i=1; i <= 5; i++ ))
 do
 echo "The value of i is $i"
 done
-````
+```
 $ chmod 755 forctype.sh
 $ ./forctype.sh 
+
 ## OUTPUT
-<img width="940" height="174" alt="image" src="https://github.com/user-attachments/assets/232fc0f4-e4cc-406e-b203-4a21f1c177d5" />
+
+![pss](./op-img/forctype.png)
 
 
 cat forctype1.sh 
@@ -943,10 +946,10 @@ done
 ```
 $ chmod 755 forctype.sh
 $ ./forctype1.sh 
+
 ## OUTPUT
 
-<img width="940" height="174" alt="image" src="https://github.com/user-attachments/assets/c6ba51e0-d396-4926-958a-5bcb9a6d6e68" />
-
+![pss](./op-img/forctype1.png)
 
 cat fornested1.sh 
 ```bash
@@ -965,10 +968,7 @@ $ chmod 755 fornested1.sh
  
 $ ./fornested1.sh 
  ## OUTPUT
-
-<img width="940" height="174" alt="image" src="https://github.com/user-attachments/assets/a8daae92-738e-4f0d-8870-88035e5a4493" />
-
-
+![pss](./op-img/fornested1.png)
  
 cat forbreak.sh 
 ```bash
@@ -984,16 +984,14 @@ echo "Iteration number: $var1"
 done
 echo "The for loop is completed“
 ```
-## OUTPUT
-
-<img width="940" height="192" alt="image" src="https://github.com/user-attachments/assets/2b36707e-3542-42e9-9acf-a8f48aa405b3" />
-
-
 $ chmod 755 forbreak.sh
  
 $ ./forbreak.sh 
  
-cat forbreak.sh 
+## OUTPUT
+![pss](./op-img/forbreak.png)
+
+cat forcontinue.sh 
 ```bash
 #!/bin/bash
 # breaking out of a for loop
@@ -1013,7 +1011,7 @@ $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
 ## OUTPUT
-
+![pss](./op-img/forcontinue.png)
  
 cat exread.sh 
 ```bash
@@ -1028,24 +1026,8 @@ $ chmod 755 exread.sh
  
 $ ./exread.sh 
 ## OUTPUT
+![pss](./op-img/exread.png)
 
-<img width="940" height="118" alt="image" src="https://github.com/user-attachments/assets/86818e8d-5897-4731-b176-bde31bab7189" />
-
-
- cat exread1.sh
-```bash
-#!/bin/bash
-# testing the read command
-read -p "Enter your name: " name
-echo "Hello $name, welcome to my program. “
-``` 
-$ chmod 755 exread1.sh 
-
-## OUTPUT
-
-
-
-$ ./exread1.sh 
  
 cat funcex.sh
 ```bash
@@ -1063,15 +1045,14 @@ echo "Usage: badtest1 a b"
 fi
 ```
 ## OUTPUT
+./funcex.sh 
 
-<img width="966" height="214" alt="image" src="https://github.com/user-attachments/assets/021a3267-ba17-4424-a06b-e48b00560f51" />
-
- ./funcex.sh 
-
+![pss](./op-img/fun1.png)
  
- ./funcex.sh 1 2
+./funcex.sh 1 2
 
- 
+![pss](./op-img/fun2.png)
+
 cat argshift.sh
 ```bash
 #!/bin/bash 
@@ -1081,29 +1062,29 @@ cat argshift.sh
 done
 ```
 $ chmod 777 argshift.sh
+$ ./argshift.sh 1 2 3
 
 ## OUTPUT
-
-<img width="940" height="48" alt="image" src="https://github.com/user-attachments/assets/380f7da5-97a7-4ac9-bcb5-4212566a3896" />
-
-$ ./argshift.sh 1 2 3
+![pss](./op-img/arg1.png)
  
- cat argshift1.sh
+
+cat argshift1.sh
 ```bash
- #/bin/bash 
- # store arguments in a special array 
+#/bin/bash 
+# store arguments in a special array 
 args=("$@") 
 # get number of elements 
 ELEMENTS=${#args[@]} 
- # echo each element in array  
+# echo each element in array  
 # for loop 
 for (( i=0;i<$ELEMENTS;i++)); do 
     echo ${args[${i}]} 
 done
 ```
 $ chmod 777 argshift.sh
-## OUTPUT
 $ ./argshift.sh 1 2 3
+## OUTPUT
+![pss](./op-img/arg2.png)
  
 cat argshift.sh
 ```bash
@@ -1116,12 +1097,11 @@ done
 set +x
 ```
 ## OUTPUT
-
-<img width="940" height="148" alt="image" src="https://github.com/user-attachments/assets/da72295e-c67d-40da-8c36-209d3ee10d9d" />
-
- ./argshift.sh 1 2 3
+./argshift.sh 1 2 3
  
- 
+![pss](./op-img/arg3.png)
+
+
 cat > nc.awk
 ```bash
 BEGIN{}
@@ -1151,8 +1131,8 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
- <img width="940" height="148" alt="image" src="https://github.com/user-attachments/assets/03467c61-5f9e-4316-9735-bf82e77809f1" />
-
+![pss](./op-img/s1.png)
+ 
 cat > palindrome.sh
 ```bash
 #num=545
@@ -1178,10 +1158,10 @@ else
 	echo "Number is NOT palindrome"
 fi
 ```
-## OUTPUT
-<img width="940" height="343" alt="image" src="https://github.com/user-attachments/assets/5b794817-8779-43f2-9c0e-ee0be087b537" />
-
-
+## OUTPUT 
+![pss](./op-img/palindrome.png)
 
 # RESULT:
 The Commands are executed successfully.
+
+
