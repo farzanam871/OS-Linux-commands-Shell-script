@@ -593,7 +593,9 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
-![pss](./op-img/pss1.png)
+<img width="2172" height="724" alt="image" src="https://github.com/user-attachments/assets/4a03e338-af0d-4fd7-9a50-d9b75c18e2e6" />
+
+
 
 
 # check if with file location
@@ -641,7 +643,8 @@ fi
 
 ./ifnested.sh 
 ## OUTPUT
-![pss](./op-img/if1.png)
+<img width="2146" height="732" alt="image" src="https://github.com/user-attachments/assets/21b2da86-c6be-48a9-97d4-317b19fb13db" />
+
 
 
 # using numeric test comparisons
@@ -685,7 +688,8 @@ $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
 ## OUTPUT
-![pss](./op-img/if1.png)
+<img width="2146" height="732" alt="image" src="https://github.com/user-attachments/assets/9107b79b-5758-4cec-8124-8a3399669ab2" />
+
 
 
 # check if a file
@@ -736,7 +740,8 @@ $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
 ## OUTPUT
-![pss](./op-img/if1.png)
+<img width="2146" height="732" alt="image" src="https://github.com/user-attachments/assets/c847548f-1263-4329-8040-d203e02a3f91" />
+
 
 
 # looking for a possible value using elif
@@ -767,7 +772,8 @@ $ chmod 755 elifcheck.sh
 $ ./elifcheck.sh 
 ## OUTPUT
 
-![pss](./op-img/elif1.png)
+<img width="2079" height="756" alt="image" src="https://github.com/user-attachments/assets/27a20bd9-ba48-428c-aee3-f43ea3a16cd7" />
+
 
 
 
@@ -785,7 +791,8 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
-![pss](./op-img/testing1.png).
+<img width="1896" height="830" alt="image" src="https://github.com/user-attachments/assets/10f4e128-3f49-4f71-b14f-a84fc447d5c8" />
+
 
 
 # using the case command
@@ -807,7 +814,8 @@ $ chmod 755 casecheck.sh
  
 $ ./casecheck.sh 
 ## OUTPUT
-![pss](./op-img/case1.png)
+<img width="2039" height="771" alt="image" src="https://github.com/user-attachments/assets/cea13714-966a-4f69-abdf-e69b00df8749" />
+
  
 cat > whiletest
 ```bash
@@ -825,7 +833,8 @@ $ chmod 755 whiletest.sh
 $ ./whiletest.sh
 
 ## OUTPUT 
-![pss](./op-img/while1.png)
+<img width="1920" height="819" alt="image" src="https://github.com/user-attachments/assets/eaed0493-7532-4598-b52e-1de47a57c8fe" />
+
  
  
 cat untiltest.sh 
@@ -842,7 +851,9 @@ $ chmod 755 untiltest.sh
 $ ./untiltest.sh
 
 ## OUTPUT
-![pss](./op-img/until1.png) 
+<img width="2172" height="724" alt="image" src="https://github.com/user-attachments/assets/9173cdb9-9aaf-4953-a60c-ea95679688b5" />
+
+
  
  
 cat forin1.sh 
@@ -859,7 +870,8 @@ $ chmod 755 forin1.sh
 $ ./forin1.sh
 
 ## OUTPUT
-![pss](./op-img/forin1.png)
+<img width="1998" height="787" alt="image" src="https://github.com/user-attachments/assets/3ce0a8d9-5404-4a2b-aef4-b3b0e92da44e" />
+
  
 cat forin2.sh 
 ```bash
@@ -875,7 +887,8 @@ $ chmod 755 forin2.sh
 $ ./forin2.sh
 
 ## OUTPUT
-![pss](./op-img/forin2.png)
+<img width="2007" height="784" alt="image" src="https://github.com/user-attachments/assets/e0ff7c4e-aa0d-4b3e-8475-a4fe06255e71" />
+
  
  
 cat forin3.sh 
@@ -892,7 +905,8 @@ $ chmod 755 forin3.sh
 $ ./forin3.sh 
 
  ## OUTPUT
- ![pss](./op-img/forin3.png)
+ <img width="2126" height="740" alt="image" src="https://github.com/user-attachments/assets/d497520f-9aa3-4c28-80e1-ac34671c6f28" />
+
 
 
 cat forinfile.sh 
@@ -916,7 +930,8 @@ Bhadrachalam
 Khammam
 
 ## OUTPUT
-![pss](./op-img/cities.png)
+<img width="1828" height="860" alt="image" src="https://github.com/user-attachments/assets/662c3313-02a4-4728-892a-ded89e9cab40" />
+
 
 cat forctype.sh 
 ```bash
@@ -932,7 +947,8 @@ $ ./forctype.sh
 
 ## OUTPUT
 
-![pss](./op-img/forctype.png)
+<img width="2172" height="724" alt="image" src="https://github.com/user-attachments/assets/6a7bf849-0b3a-47fc-b040-40e19c716081" />
+
 
 
 cat forctype1.sh 
@@ -949,7 +965,9 @@ $ ./forctype1.sh
 
 ## OUTPUT
 
-![pss](./op-img/forctype1.png)
+<img width="2158" height="729" alt="image" src="https://github.com/user-attachments/assets/4b424b9d-46ee-42ad-809d-8c38c8382323" />
+
+
 
 cat fornested1.sh 
 ```bash
@@ -968,7 +986,8 @@ $ chmod 755 fornested1.sh
  
 $ ./fornested1.sh 
  ## OUTPUT
-![pss](./op-img/fornested1.png)
+<img width="1915" height="821" alt="image" src="https://github.com/user-attachments/assets/b190a19e-d9c9-4634-9cdf-e275652b6ec6" />
+
  
 cat forbreak.sh 
 ```bash
@@ -989,7 +1008,8 @@ $ chmod 755 forbreak.sh
 $ ./forbreak.sh 
  
 ## OUTPUT
-![pss](./op-img/forbreak.png)
+<img width="2167" height="726" alt="image" src="https://github.com/user-attachments/assets/e2a1eeaa-14da-46e3-8f13-0916e12c201f" />
+
 
 cat forcontinue.sh 
 ```bash
@@ -1011,7 +1031,8 @@ $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
 ## OUTPUT
-![pss](./op-img/forcontinue.png)
+<img width="2219" height="709" alt="image" src="https://github.com/user-attachments/assets/cfe10a4b-2b15-4318-b338-f415813d5208" />
+
  
 cat exread.sh 
 ```bash
@@ -1026,7 +1047,8 @@ $ chmod 755 exread.sh
  
 $ ./exread.sh 
 ## OUTPUT
-![pss](./op-img/exread.png)
+<img width="2080" height="756" alt="image" src="https://github.com/user-attachments/assets/781c88cd-3256-4d81-a33d-8d3966a22a44" />
+
 
  
 cat funcex.sh
@@ -1047,11 +1069,13 @@ fi
 ## OUTPUT
 ./funcex.sh 
 
-![pss](./op-img/fun1.png)
+<img width="2167" height="726" alt="image" src="https://github.com/user-attachments/assets/daf80f32-cba5-4c4b-aace-b430e22dec59" />
+
  
 ./funcex.sh 1 2
 
-![pss](./op-img/fun2.png)
+<img width="2065" height="762" alt="image" src="https://github.com/user-attachments/assets/cf71c15f-b89d-4789-ac29-15483cb6b2d7" />
+
 
 cat argshift.sh
 ```bash
@@ -1065,7 +1089,9 @@ $ chmod 777 argshift.sh
 $ ./argshift.sh 1 2 3
 
 ## OUTPUT
-![pss](./op-img/arg1.png)
+<img width="1829" height="860" alt="image" src="https://github.com/user-attachments/assets/23f4eb46-925d-4df4-b3e9-b25fd81b2fb3" />
+
+
  
 
 cat argshift1.sh
@@ -1084,7 +1110,8 @@ done
 $ chmod 777 argshift.sh
 $ ./argshift.sh 1 2 3
 ## OUTPUT
-![pss](./op-img/arg2.png)
+<img width="2194" height="717" alt="image" src="https://github.com/user-attachments/assets/d8297add-220c-4498-bac4-9bd178546c01" />
+
  
 cat argshift.sh
 ```bash
