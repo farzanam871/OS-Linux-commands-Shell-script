@@ -1099,7 +1099,8 @@ set +x
 ## OUTPUT
 ./argshift.sh 1 2 3
  
-![pss](./op-img/arg3.png)
+<img width="1824" height="862" alt="image" src="https://github.com/user-attachments/assets/a89f3c7a-b7c0-4341-acbd-cba85cb467be" />
+
 
 
 cat > nc.awk
@@ -1131,7 +1132,10 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
-![pss](./op-img/s1.png)
+<img width="1600" height="759" alt="WhatsApp Image 2026-08-02 at 3 09 56 PM" src="https://github.com/user-attachments/assets/38fa11c4-2168-494f-b96d-92516aebbab6" />
+
+
+
  
 cat > palindrome.sh
 ```bash
@@ -1159,7 +1163,8 @@ else
 fi
 ```
 ## OUTPUT 
-![pss](./op-img/palindrome.png)
+<img width="1600" height="534" alt="WhatsApp Image 2026-08-02 at 3 05 50 PM" src="https://github.com/user-attachments/assets/9540f756-a069-4b57-b912-4da598a42751" />
+
 
 # RESULT:
 The Commands are executed successfully.
