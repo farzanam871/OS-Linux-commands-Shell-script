@@ -477,7 +477,8 @@ echo 'echo Hello World‘; exit 0 >> my-script.sh
 chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
-![tar](./op-img/chmod.png)
+<img width="2112" height="745" alt="image" src="https://github.com/user-attachments/assets/00d7aa3d-6943-409b-a109-ac7f99106e48" />
+
  
 cat << stop > herecheck.txt
 ```
@@ -489,7 +490,8 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
-![tar](./op-img/cat.png)
+<img width="2172" height="724" alt="image" src="https://github.com/user-attachments/assets/d63d232e-3372-445d-b134-cedf1e6db134" />
+
 
 cat < scriptest.sh 
 ```bash
@@ -527,16 +529,19 @@ chmod 777 scriptest.sh
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
-![tar](./op-img/chmod1.png)
+<img width="1401" height="1123" alt="image" src="https://github.com/user-attachments/assets/952c222f-c2a7-4e28-a28d-fcb9efe569c9" />
+
  
 ls file1
 ## OUTPUT
-![ls](./op-img/ls1.png)
+<img width="2179" height="722" alt="image" src="https://github.com/user-attachments/assets/e8e261ed-74f1-492a-8bae-a516d85d652c" />
+
 
 
 echo $?
 ## OUTPUT 
-![echo](./op-img/echo1.png)
+<img width="2172" height="724" alt="image" src="https://github.com/user-attachments/assets/71bd28ec-14af-4249-a044-49ad13c39976" />
+
 
 
 ./one
@@ -549,7 +554,8 @@ abcd
  
 echo $?
  ## OUTPUT
-![echo](./op-img/echo2.png)
+<img width="2172" height="724" alt="image" src="https://github.com/user-attachments/assets/fa6316ec-b6b8-49bc-9a2e-6f19cb5d0f3e" />
+
 
  
 # mis-using string comparisons
@@ -581,14 +587,16 @@ echo "$val1 is less than $val2"
 fi
 ```
 ## OUTPUT
-![str](./op-img/str1.png)
+<img width="2073" height="758" alt="image" src="https://github.com/user-attachments/assets/801684ec-a115-46ae-9306-cd7f6f295e33" />
+
 
 
 chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
-![str](./op-img/strcomp.png)
+<img width="2001" height="786" alt="image" src="https://github.com/user-attachments/assets/3dd71ba8-d339-40a5-9a6f-13e971291c90" />
+
 
 # check file ownership
 cat < psswdperm.sh 
