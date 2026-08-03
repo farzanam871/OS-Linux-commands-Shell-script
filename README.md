@@ -339,12 +339,15 @@ seq 10 | sed '2,9c hello'
 
 sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
-![seq](./op-img/seq7.png)
+
+<img width="857" height="130" alt="image" src="https://github.com/user-attachments/assets/1542b677-da3e-433e-95cf-fde080e16302" />
 
 
 sed -n '2,4{s/$/*/;p}' file23
 ## OUTPUT
-![seq](./op-img/seq8.png)
+<img width="1902" height="827" alt="image" src="https://github.com/user-attachments/assets/f3fc779f-50ed-41f7-94ce-2350ad1410a6" />
+
+
 
 #Sorting File content
 cat > file21
@@ -357,7 +360,8 @@ cat > file21
 ``` 
 sort file21
 ## OUTPUT
-![sort](./op-img/sort1.png)
+<img width="1985" height="792" alt="image" src="https://github.com/user-attachments/assets/924d3090-d5df-42ae-94af-3e9d83394a65" />
+
 
 cat > file22
 ```
@@ -370,14 +374,16 @@ cat > file22
 ``` 
 uniq file22
 ## OUTPUT
-![sort](./op-img/uniq.png)
+<img width="1802" height="873" alt="image" src="https://github.com/user-attachments/assets/f663981a-e7cd-4a38-bce5-768d530ff0f1" />
+
 
 
 #Using tr command
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
-![sort](./op-img/tr.png)
+
+<img width="1783" height="882" alt="image" src="https://github.com/user-attachments/assets/de254922-34ef-4d1a-be5f-f6329057faac" />
 
 
 cat < urllist.txt
