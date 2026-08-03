@@ -403,24 +403,30 @@ www. mrcet.... com
 
 cat urllist.txt | tr -d ' '
  ## OUTPUT
-![sort](./op-img/cat1.png)
+
+<img width="1561" height="1008" alt="image" src="https://github.com/user-attachments/assets/41af5edd-d01d-4b33-a55a-a9bebd9a731c" />
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
-![sort](./op-img/cat2.png)
+
+<img width="2058" height="764" alt="image" src="https://github.com/user-attachments/assets/384b05b9-a1cd-4dc9-810d-fb741e6d7af0" />
 
 
 #Backup commands
 
 tar -cvf backup.tar *
 ## OUTPUT
-![tar](./op-img/tar1.png)
-![tar](./op-img/tar2.png)
-![tar](./op-img/tar3.png)
-![tar](./op-img/tar4.png)
-![tar](./op-img/tar5.png)
+<img width="607" height="475" alt="Screenshot 2026-08-03 205227" src="https://github.com/user-attachments/assets/0fe8adae-4920-45cd-bcc0-472e7dce32d6" />
 
+
+<img width="904" height="558" alt="image" src="https://github.com/user-attachments/assets/da7f8375-8ba2-4323-b490-89380420950b" />
+
+<img width="875" height="571" alt="image" src="https://github.com/user-attachments/assets/3d2ddc9b-a6d6-40cd-8e28-640b178d3eb8" />
+
+<img width="883" height="535" alt="image" src="https://github.com/user-attachments/assets/6b35ac54-5052-451c-a0ed-5a0dafd605f1" />
+
+<img width="840" height="350" alt="image" src="https://github.com/user-attachments/assets/786dcb53-e7be-4835-a43a-5c583bab04f1" />
 
 mkdir backupdir
  
@@ -430,10 +436,14 @@ cd backupdir
  
 tar -tvf backup.tar
 ## OUTPUT
-![tar](./op-img/tvf1.png)
-![tar](./op-img/tvf2.png)
-![tar](./op-img/tvf3.png)
-![tar](./op-img/tvf4.png)
+<img width="1604" height="981" alt="image" src="https://github.com/user-attachments/assets/0298bd37-a5ab-48ca-bb8f-a34c2ed59343" />
+
+<img width="1575" height="999" alt="image" src="https://github.com/user-attachments/assets/4ec1f6a9-37f4-4f8e-80aa-27c956896263" />
+
+<img width="1591" height="989" alt="image" src="https://github.com/user-attachments/assets/9ebc1eab-708f-458b-97aa-b983d780b1fb" />
+
+<img width="1627" height="967" alt="image" src="https://github.com/user-attachments/assets/2646c6bd-1622-42ce-88b3-1854e4687872" />
+
 
 
 tar -xvf backup.tar
